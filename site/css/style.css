@@ -1,0 +1,54 @@
+.bg-yellow {
+	--bs-bg-opacity: 1;
+	background-color: #f2cc39 !important;
+}
+
+.bg-blue {
+	--bs-bg-opacity: 1;
+	background-color: #506ad4 !important;
+}
+
+.blue-top img{
+	height: 16px;
+}
+footer a, .blue-top a, .navbar a, footer p{
+	color: #FFF !important;
+}
+.cursos a{
+	text-decoration: none;
+	color: #212529;
+}
+
+.titulo{
+	font-weight: 300;
+	line-height: 1;
+	/* rtl:remove */
+	letter-spacing: -.05rem;
+}
+h2.titulo {
+	font-size: 50px !important;
+}
+.card:hover h5{
+	color: #506ad4;
+}
+.card:hover{
+	box-shadow: 0px 0px 10px #d5d5d5;
+}
+.form-contato{
+	background: #f2cc39;
+	width: 90%;
+	margin: 0 auto;
+}
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
